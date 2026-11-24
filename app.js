@@ -45,7 +45,7 @@
   function fallback(message) {
     btn.href = FALLBACK;
     label.textContent = 'Scarica per Windows';
-    setMeta([{ text: 'Windows 10 o 11, 64 bit' }, { text: 'circa 15 MB' }]);
+    setMeta([{ text: 'Windows 10 o 11, 64 bit' }, { text: 'circa 5 MB' }]);
     status.textContent = message;
     status.dataset.kind = 'warn';
     status.hidden = false;

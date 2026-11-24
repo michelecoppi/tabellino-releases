@@ -9,7 +9,7 @@ Questo repository contiene **solo gli installer per Windows** e la pagina di dow
 - Pagina di download: <https://michelecoppi.github.io/tabellino-releases/>
 - Tutte le versioni: <https://github.com/michelecoppi/tabellino-releases/releases>
 
-Requisiti: Windows 10 o 11 a 64 bit, circa 15 MB di spazio. Scarica il file che finisce con `-setup.exe` e avvialo.
+Requisiti: Windows 10 o 11 a 64 bit, circa 10 MB di spazio (installer da circa 5 MB). Scarica il file che finisce con `-setup.exe` e avvialo.
 
 ## Primo avvio: l'avviso di Windows
 
