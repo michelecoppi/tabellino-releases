@@ -3,9 +3,6 @@
 (function () {
   'use strict';
 
-  // Indirizzo della versione web (Mac e telefono). Vuoto = la sezione sparisce.
-  var WEB_URL = 'https://tabellino.pages.dev';
-
   var REPO = 'michelecoppi/tabellino-releases';
   var API = 'https://api.github.com/repos/' + REPO + '/releases/latest';
   var FALLBACK = 'https://github.com/' + REPO + '/releases/latest';
@@ -14,16 +11,6 @@
   var label = document.getElementById('dl-label');
   var meta = document.getElementById('dl-meta');
   var status = document.getElementById('dl-status');
-
-  // Sezione «Gioca dal browser»
-  var webCard = document.getElementById('web-card');
-  var webLink = document.getElementById('web-link');
-  if (WEB_URL) {
-    webLink.href = WEB_URL;
-    webCard.hidden = false;
-  } else if (webCard) {
-    webCard.remove();
-  }
 
   function el(tag, text) {
     var n = document.createElement(tag);
