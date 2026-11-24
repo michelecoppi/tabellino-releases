@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tabellino, il gestionale di basket</title>
+  <meta name="description" content="Tabellino è un gestionale di basket con una lega inventata e partite simulate dal motore. Scaricalo gratis per Windows.">
+  <meta name="theme-color" content="#050b1a">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-512.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tabellino">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="Tabellino, il gestionale di basket">
+  <meta property="og:description" content="Una lega inventata, partite simulate dal motore, le tue scelte. Scarica Tabellino gratis per Windows.">
+  <meta property="og:image" content="https://michelecoppi.github.io/tabellino-releases/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://michelecoppi.github.io/tabellino-releases/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tabellino, il gestionale di basket">
+  <meta name="twitter:description" content="Una lega inventata, partite simulate dal motore, le tue scelte. Scarica Tabellino gratis per Windows.">
+  <meta name="twitter:image" content="https://michelecoppi.github.io/tabellino-releases/assets/og.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#scarica">Vai al download</a>
+
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#"><img src="assets/favicon.svg" alt="" width="32" height="32">Tabellino</a>
+      <nav class="nav" aria-label="Sezioni della pagina">
+        <a href="#requisiti">Requisiti</a>
+        <a href="#primo-avvio">Primo avvio</a>
+        <a href="#aggiornamenti">Aggiornamenti</a>
+        <a href="#schermate">Schermate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="scarica">
+      <div class="wrap hero__grid">
+        <div>
+          <p class="eyebrow rise">Gestionale di basket</p>
+          <h1 class="rise">Tabellino<span>.</span></h1>
+          <p class="lead rise">Una lega inventata, partite simulate dal motore, e le scelte che contano sono tue.</p>
+          <div class="cta rise">
+            <a class="btn" id="dl-btn" href="https://github.com/michelecoppi/tabellino-releases/releases/latest">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></svg>
+              <span id="dl-label">Scarica per Windows</span>
+            </a>
+            <p class="meta" id="dl-meta" aria-live="polite">Controllo l'ultima versione...</p>
+            <p class="status" id="dl-status" hidden></p>
+          </div>
+        </div>
+        <div class="hero__shot rise">
+          <figure id="hero-fig">
+            <img src="assets/schermata-plancia.webp" alt="La plancia di Tabellino con la prossima partita e i risultati dell'ultima giornata" width="1440" height="900" fetchpriority="high">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="requisiti">
+      <div class="wrap">
+        <p class="kicker">Prima di iniziare</p>
+        <h2>Requisiti</h2>
+        <p class="sub">Tabellino è leggero: un'installazione veloce e nessun account da creare.</p>
+        <ul class="reqs">
+          <li><b>Windows 10 o 11</b>, 64 bit</li>
+          <li>Circa <b>15 MB</b> di spazio</li>
+          <li><b>Gratis</b>, senza account</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="block" id="primo-avvio">
+      <div class="wrap">
+        <p class="kicker">Primo avvio</p>
+        <h2>Se Windows ti ferma</h2>
+        <p class="sub">La prima volta Windows può mostrare un avviso blu prima di aprire il programma d'installazione. Succede con molte app nuove e non vuol dire che il file sia pericoloso. Bastano tre clic.</p>
+        <ol class="steps">
+          <li class="step">
+            <h3>Leggi l'avviso</h3>
+            <div class="dlg" aria-hidden="true">
+              <div class="dlg__bar"></div>
+              <div class="dlg__body">
+                <div class="dlg__title">Windows ha protetto il PC</div>
+                <div class="dlg__text">Microsoft Defender SmartScreen ha impedito l'avvio di un'app non riconosciuta.</div>
+                <span class="dlg__link">Ulteriori informazioni</span>
+                <div class="dlg__actions"><span class="dlg__btn dlg__btn--main">Non eseguire</span></div>
+              </div>
+            </div>
+            <p>Compare «Windows ha protetto il PC». Non premere «Non eseguire».</p>
+          </li>
+          <li class="step">
+            <h3>Ulteriori informazioni</h3>
+            <div class="dlg" aria-hidden="true">
+              <div class="dlg__bar"></div>
+              <div class="dlg__body">
+                <div class="dlg__title">Windows ha protetto il PC</div>
+                <div class="dlg__text">Microsoft Defender SmartScreen ha impedito l'avvio di un'app non riconosciuta.</div>
+                <span class="dlg__link hl">Ulteriori informazioni</span>
+                <div class="dlg__actions"><span class="dlg__btn dlg__btn--main">Non eseguire</span></div>
+              </div>
+            </div>
+            <p>Clicca sul link «Ulteriori informazioni» in mezzo alla finestra.</p>
+          </li>
+          <li class="step">
+            <h3>Esegui comunque</h3>
+            <div class="dlg" aria-hidden="true">
+              <div class="dlg__bar"></div>
+              <div class="dlg__body">
+                <div class="dlg__title">Windows ha protetto il PC</div>
+                <div class="dlg__file">Tabellino_setup.exe</div>
+                <div class="dlg__actions"><span class="dlg__btn hl">Esegui comunque</span><span class="dlg__btn dlg__btn--main">Non eseguire</span></div>
+              </div>
+            </div>
+            <p>Ora compare «Esegui comunque». Premilo e l'installazione parte.</p>
+          </li>
+        </ol>
+        <p class="honest"><b>Perché succede?</b> Un certificato a pagamento per i programmi Windows costa ogni anno e Tabellino è un progetto indipendente, quindi non ne ha uno. Windows non conosce ancora l'editore e per prudenza chiede conferma. Gli aggiornamenti, invece, sono firmati e il gioco li verifica da solo prima di installarli.</p>
+      </div>
+    </section>
+
+    <section class="block" id="aggiornamenti">
+      <div class="wrap">
+        <p class="kicker">Sempre al passo</p>
+        <h2>Aggiornamenti e salvataggi</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Si aggiorna da solo</h3>
+            <p>Quando esce una versione nuova il gioco te lo dice. Ti basta un clic per aggiornare, senza riscaricare nulla a mano. I salvataggi restano dove sono.</p>
+          </article>
+          <article class="card">
+            <h3>I tuoi salvataggi</h3>
+            <p>Le leghe restano sul tuo PC, mai su un server. Da <b>Salvataggi</b> puoi esportarle in un file <code>.tabellino</code>, per fare una copia o portarle su un altro computer.</p>
+          </article>
+          <article class="card" id="web-card" hidden>
+            <h3>Gioca dal browser</h3>
+            <p>Sei su Mac o da telefono? Tabellino funziona anche nel browser, senza installare niente.</p>
+            <p style="margin-top:14px"><a class="btn btn--ghost" id="web-link" href="https://tabellino.pages.dev" rel="noopener">Apri la versione web</a></p>
+          </article>
+        </div>
+        <div class="notes" id="notes" hidden>
+          <h3 id="notes-title">Novità della versione</h3>
+          <div id="notes-body"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="schermate">
+      <div class="wrap">
+        <p class="kicker">Dentro il gioco</p>
+        <h2>Schermate</h2>
+        <p class="sub">Dalla plancia della tua squadra alla partita in 3D: ecco com'è fatto.</p>
+        <div class="gallery">
+          <figure>
+            <img src="assets/schermata-plancia.webp" alt="La plancia con la prossima partita e i risultati" width="1440" height="900" loading="lazy">
+            <figcaption><b>Plancia</b>La tua settimana in un colpo d'occhio.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/schermata-classifica.webp" alt="La classifica della lega" width="1440" height="900" loading="lazy">
+            <figcaption><b>Classifica</b>Una lega intera che gioca anche senza di te.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/schermata-partita.webp" alt="Il box score di una partita" width="1440" height="900" loading="lazy">
+            <figcaption><b>Box score</b>Ogni partita lascia un tabellino e una cronaca.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/schermata-arena.webp" alt="La partita nell'arena 3D" width="1440" height="900" loading="lazy">
+            <figcaption><b>Arena</b>La partita vista come in TV.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <a class="brand" href="#"><img src="assets/favicon.svg" alt="" width="32" height="32">Tabellino</a>
+      <p>Squadre, giocatori e città di Tabellino sono tutti inventati: ogni somiglianza con persone o club reali è casuale.</p>
+      <p>Dati di calcio per la calibrazione: <a href="https://github.com/statsbomb/open-data" rel="noopener">StatsBomb open data</a>. Dati di basket per la calibrazione: stats.nba.com tramite <a href="https://github.com/swar/nba_api" rel="noopener">nba_api</a>.</p>
+      <p>Font Barlow e Barlow Condensed, licenza SIL Open Font License 1.1. Problemi o idee? <a href="https://github.com/michelecoppi/tabellino-releases/issues" rel="noopener">Scrivili nelle Issues</a>.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
