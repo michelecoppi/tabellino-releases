@@ -30,10 +30,10 @@
     <div class="wrap">
       <a class="brand" href="#"><img src="assets/favicon.svg" alt="" width="32" height="32">Tabellino</a>
       <nav class="nav" aria-label="Sezioni della pagina">
-        <a href="#requisiti">Requisiti</a>
-        <a href="#primo-avvio">Primo avvio</a>
-        <a href="#aggiornamenti">Aggiornamenti</a>
         <a href="#schermate">Schermate</a>
+        <a href="#novita">Novità</a>
+        <a href="#guida">Guida</a>
+        <a class="nav__cta" href="#scarica">Scarica</a>
       </nav>
     </div>
   </header>
@@ -52,6 +52,12 @@
             </a>
             <p class="meta" id="dl-meta" aria-live="polite">Controllo l'ultima versione...</p>
             <p class="status" id="dl-status" hidden></p>
+            <ul class="reqs" aria-label="Requisiti">
+              <li><b>Windows 10 o 11</b>, 64 bit</li>
+              <li><b>Gratis</b>, senza account</li>
+              <li>Circa <b>10 MB</b></li>
+            </ul>
+            <p class="hint">Windows ti ferma con un avviso blu? <a href="#primo-avvio">Ecco cosa fare</a>.</p>
           </div>
         </div>
         <div class="hero__shot rise">
@@ -62,119 +68,128 @@
       </div>
     </section>
 
-    <section class="block" id="requisiti">
-      <div class="wrap">
-        <p class="kicker">Prima di iniziare</p>
-        <h2>Requisiti</h2>
-        <p class="sub">Tabellino è leggero: un'installazione veloce e nessun account da creare.</p>
-        <ul class="reqs">
-          <li><b>Windows 10 o 11</b>, 64 bit</li>
-          <li>Circa <b>10 MB</b> di spazio (le leghe salvate a parte)</li>
-          <li><b>Gratis</b>, senza account</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="block" id="primo-avvio">
-      <div class="wrap">
-        <p class="kicker">Primo avvio</p>
-        <h2>Se Windows ti ferma</h2>
-        <p class="sub">La prima volta Windows può mostrare un avviso blu prima di aprire il programma d'installazione. Succede con molte app nuove e non vuol dire che il file sia pericoloso. Bastano tre clic.</p>
-        <ol class="steps">
-          <li class="step">
-            <h3>Leggi l'avviso</h3>
-            <div class="dlg" aria-hidden="true">
-              <div class="dlg__bar"></div>
-              <div class="dlg__body">
-                <div class="dlg__title">Windows ha protetto il PC</div>
-                <div class="dlg__text">Microsoft Defender SmartScreen ha impedito l'avvio di un'app non riconosciuta.</div>
-                <span class="dlg__link">Ulteriori informazioni</span>
-                <div class="dlg__actions"><span class="dlg__btn dlg__btn--main">Non eseguire</span></div>
-              </div>
-            </div>
-            <p>Compare «Windows ha protetto il PC». Non premere «Non eseguire».</p>
-          </li>
-          <li class="step">
-            <h3>Ulteriori informazioni</h3>
-            <div class="dlg" aria-hidden="true">
-              <div class="dlg__bar"></div>
-              <div class="dlg__body">
-                <div class="dlg__title">Windows ha protetto il PC</div>
-                <div class="dlg__text">Microsoft Defender SmartScreen ha impedito l'avvio di un'app non riconosciuta.</div>
-                <span class="dlg__link hl">Ulteriori informazioni</span>
-                <div class="dlg__actions"><span class="dlg__btn dlg__btn--main">Non eseguire</span></div>
-              </div>
-            </div>
-            <p>Clicca sul link «Ulteriori informazioni» in mezzo alla finestra.</p>
-          </li>
-          <li class="step">
-            <h3>Esegui comunque</h3>
-            <div class="dlg" aria-hidden="true">
-              <div class="dlg__bar"></div>
-              <div class="dlg__body">
-                <div class="dlg__title">Windows ha protetto il PC</div>
-                <div class="dlg__file">Tabellino_setup.exe</div>
-                <div class="dlg__actions"><span class="dlg__btn hl">Esegui comunque</span><span class="dlg__btn dlg__btn--main">Non eseguire</span></div>
-              </div>
-            </div>
-            <p>Ora compare «Esegui comunque». Premilo e l'installazione parte.</p>
-          </li>
-        </ol>
-        <p class="honest"><b>Perché succede?</b> Un certificato a pagamento per i programmi Windows costa ogni anno e Tabellino è un progetto indipendente, quindi non ne ha uno. Windows non conosce ancora l'editore e per prudenza chiede conferma. Gli aggiornamenti, invece, sono firmati e il gioco li verifica da solo prima di installarli.</p>
-      </div>
-    </section>
-
-    <section class="block" id="aggiornamenti">
-      <div class="wrap">
-        <p class="kicker">Sempre al passo</p>
-        <h2>Aggiornamenti e salvataggi</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Si aggiorna da solo</h3>
-            <p>Quando esce una versione nuova il gioco te lo dice. Ti basta un clic per aggiornare, senza riscaricare nulla a mano. I salvataggi restano dove sono.</p>
-          </article>
-          <article class="card">
-            <h3>I tuoi salvataggi</h3>
-            <p>Le leghe restano sul tuo PC, mai su un server. Da <b>Salvataggi</b> puoi esportarle in un file <code>.tabellino</code>, per fare una copia o portarle su un altro computer.</p>
-          </article>
-          <article class="card">
-            <h3>Mac, iPhone e Android</h3>
-            <p><b>In arrivo.</b> Per ora Tabellino è solo per Windows: le altre versioni usciranno più avanti, e le annunceremo qui.</p>
-          </article>
-        </div>
-        <div class="notes" id="notes" hidden>
-          <h3 id="notes-title">Novità della versione</h3>
-          <div id="notes-body"></div>
-        </div>
-      </div>
-    </section>
-
     <section class="block" id="schermate">
       <div class="wrap">
         <p class="kicker">Dentro il gioco</p>
         <h2>Schermate</h2>
-        <p class="sub">Dalla plancia della tua squadra alla partita in 3D: ecco com'è fatto.</p>
-        <div class="gallery">
-          <figure>
-            <img src="assets/schermata-plancia.webp" alt="La plancia con la prossima partita e i risultati" width="1440" height="900" loading="lazy">
-            <figcaption><b>Plancia</b>La tua settimana in un colpo d'occhio.</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/schermata-classifica.webp" alt="La classifica della lega" width="1440" height="900" loading="lazy">
-            <figcaption><b>Classifica</b>Una lega intera che gioca anche senza di te.</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/schermata-partita.webp" alt="Il box score di una partita" width="1440" height="900" loading="lazy">
-            <figcaption><b>Box score</b>Ogni partita lascia un tabellino e una cronaca.</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/schermata-arena.webp" alt="La partita nell'arena 3D" width="1440" height="900" loading="lazy">
-            <figcaption><b>Arena</b>La partita vista come in TV.</figcaption>
-          </figure>
+        <p class="sub">Dalla plancia della tua squadra alla partita in 3D. Tocca un'immagine per vederla a tutto schermo.</p>
+        <div class="shots" id="shots">
+          <div class="shots__tabs" role="tablist" aria-label="Schermate del gioco" hidden></div>
+          <div class="shots__stage">
+            <figure data-title="Plancia">
+              <img src="assets/schermata-plancia.webp" alt="La plancia con la prossima partita e i risultati" width="1440" height="900" loading="lazy">
+              <figcaption><b>Plancia</b>La tua settimana in un colpo d'occhio.</figcaption>
+            </figure>
+            <figure data-title="Classifica">
+              <img src="assets/schermata-classifica.webp" alt="La classifica della conference, con le zone playoff e play-in" width="1440" height="900" loading="lazy">
+              <figcaption><b>Classifica</b>Una lega intera che gioca anche senza di te.</figcaption>
+            </figure>
+            <figure data-title="Box score">
+              <img src="assets/schermata-partita.webp" alt="Il box score di una partita" width="1440" height="900" loading="lazy">
+              <figcaption><b>Box score</b>Ogni partita lascia un tabellino e una cronaca.</figcaption>
+            </figure>
+            <figure data-title="Arena 3D">
+              <img src="assets/schermata-arena.webp" alt="La partita nell'arena 3D" width="1440" height="900" loading="lazy">
+              <figcaption><b>Arena</b>La partita vista come in TV.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="novita">
+      <div class="wrap">
+        <p class="kicker">Cosa c'è di nuovo</p>
+        <h2>Novità</h2>
+        <div class="relhead">
+          <p class="sub" id="rel-sub">Carico le novità...</p>
+          <button type="button" class="linkbtn" id="rel-toggle" hidden>Apri tutto</button>
+        </div>
+        <div class="rels" id="rels" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="block" id="guida">
+      <div class="wrap">
+        <p class="kicker">Prima e dopo l'installazione</p>
+        <h2>Guida</h2>
+        <div class="accs">
+          <details class="acc" id="primo-avvio">
+            <summary><span>Se Windows ti ferma</span><small>Tre clic per l'avviso blu</small></summary>
+            <div class="acc__body">
+              <p class="sub">La prima volta Windows può mostrare un avviso blu prima di aprire il programma d'installazione. Succede con molte app nuove e non vuol dire che il file sia pericoloso.</p>
+              <ol class="steps">
+                <li class="step">
+                  <h3>Leggi l'avviso</h3>
+                  <div class="dlg" aria-hidden="true">
+                    <div class="dlg__bar"></div>
+                    <div class="dlg__body">
+                      <div class="dlg__title">Windows ha protetto il PC</div>
+                      <div class="dlg__text">Microsoft Defender SmartScreen ha impedito l'avvio di un'app non riconosciuta.</div>
+                      <span class="dlg__link">Ulteriori informazioni</span>
+                      <div class="dlg__actions"><span class="dlg__btn dlg__btn--main">Non eseguire</span></div>
+                    </div>
+                  </div>
+                  <p>Compare «Windows ha protetto il PC». Non premere «Non eseguire».</p>
+                </li>
+                <li class="step">
+                  <h3>Ulteriori informazioni</h3>
+                  <div class="dlg" aria-hidden="true">
+                    <div class="dlg__bar"></div>
+                    <div class="dlg__body">
+                      <div class="dlg__title">Windows ha protetto il PC</div>
+                      <div class="dlg__text">Microsoft Defender SmartScreen ha impedito l'avvio di un'app non riconosciuta.</div>
+                      <span class="dlg__link hl">Ulteriori informazioni</span>
+                      <div class="dlg__actions"><span class="dlg__btn dlg__btn--main">Non eseguire</span></div>
+                    </div>
+                  </div>
+                  <p>Clicca sul link «Ulteriori informazioni» in mezzo alla finestra.</p>
+                </li>
+                <li class="step">
+                  <h3>Esegui comunque</h3>
+                  <div class="dlg" aria-hidden="true">
+                    <div class="dlg__bar"></div>
+                    <div class="dlg__body">
+                      <div class="dlg__title">Windows ha protetto il PC</div>
+                      <div class="dlg__file">Tabellino_setup.exe</div>
+                      <div class="dlg__actions"><span class="dlg__btn hl">Esegui comunque</span><span class="dlg__btn dlg__btn--main">Non eseguire</span></div>
+                    </div>
+                  </div>
+                  <p>Ora compare «Esegui comunque». Premilo e l'installazione parte.</p>
+                </li>
+              </ol>
+              <p class="honest"><b>Perché succede?</b> Un certificato a pagamento per i programmi Windows costa ogni anno e Tabellino è un progetto indipendente, quindi non ne ha uno. Windows non conosce ancora l'editore e per prudenza chiede conferma. Gli aggiornamenti, invece, sono firmati e il gioco li verifica da solo prima di installarli.</p>
+            </div>
+          </details>
+          <details class="acc" id="aggiornamenti">
+            <summary><span>Aggiornamenti e salvataggi</span><small>Le tue leghe restano sul tuo PC</small></summary>
+            <div class="acc__body">
+              <div class="cards">
+                <article class="card">
+                  <h3>Si aggiorna da solo</h3>
+                  <p>Quando esce una versione nuova il gioco te lo dice. Ti basta un clic per aggiornare, senza riscaricare nulla a mano. I salvataggi restano dove sono.</p>
+                </article>
+                <article class="card">
+                  <h3>I tuoi salvataggi</h3>
+                  <p>Le leghe restano sul tuo PC, mai su un server. Da <b>Salvataggi</b> puoi esportarle in un file <code>.tabellino</code>, per fare una copia o portarle su un altro computer.</p>
+                </article>
+                <article class="card">
+                  <h3>Mac, iPhone e Android</h3>
+                  <p><b>In arrivo.</b> Per ora Tabellino è solo per Windows: le altre versioni usciranno più avanti, e le annunceremo qui.</p>
+                </article>
+              </div>
+            </div>
+          </details>
         </div>
       </div>
     </section>
   </main>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Schermata ingrandita">
+    <form method="dialog"><button class="lightbox__close" aria-label="Chiudi">&times;</button></form>
+    <img alt="" id="lightbox-img">
+    <p id="lightbox-cap"></p>
+  </dialog>
 
   <footer>
     <div class="wrap">

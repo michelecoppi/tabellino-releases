@@ -42,4 +42,4 @@ Squadre, giocatori e città di Tabellino sono tutti inventati: ogni somiglianza 
 
 ## Per chi mantiene questo repository
 
-La pagina è statica (`index.html`, `styles.css`, `app.js`), senza build né dipendenze esterne, e si pubblica con GitHub Pages dalla radice del ramo principale. `app.js` legge l'ultima release dall'API di GitHub e mostra versione, dimensione, data e note; se la chiamata fallisce il bottone punta alla pagina delle release. Le schermate in `assets/` si rigenerano con `capture.mjs` dal monorepo del gioco.
+La pagina è statica (`index.html`, `styles.css`, `app.js`), senza build né dipendenze esterne, e si pubblica con GitHub Pages dalla radice del ramo principale. `app.js` legge le ultime release dall'API di GitHub e mostra versione, dimensione e data sul bottone, e le note come tendine per versione e per gruppo (un gruppo comincia con una riga solo in grassetto o con un titolo `##` nel CHANGELOG); se la chiamata fallisce il bottone punta alla pagina delle release. Le schermate in `assets/` si rigenerano con `capture.mjs` dal monorepo del gioco.
